@@ -1,6 +1,7 @@
 # Google App Engine Proxy
-Python based application that act as a reverse proxy,<br> 
-you can modify the data in both ways toward the origin and toward the client . 
+Python based application that act as a basic reverse proxy,<br> 
+you can modify the data in both ways toward the origin and toward the client.<br>
+This example uses only GET , but you get the picture
  
 ## Content : 
 - app.yaml
