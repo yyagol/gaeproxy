@@ -1,0 +1,12 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /robots.txt
+  static_files: static/robots.txt
+  upload: static/robots.txt
+  expiration: "1h"
+
+- url: /.*
+  script: main.app
